@@ -17,6 +17,14 @@ After getting my bachelor's degree, I moved to the United States from Russia and
 * VSCode
 * Adobe Photoshop, Adobe Illustrator
 
+## Code Example
+``` 
+function multiply(a, b){
+    a * b
+    return a * b
+};
+```
+
 ## Work Experience
 Nothing yet in front-end development field.
 
