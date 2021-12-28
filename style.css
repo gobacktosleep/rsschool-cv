@@ -132,3 +132,56 @@ body {
 .contact-link:hover {
     color: #6a8a84;
 }
+
+.page-text {
+    text-align: justify;
+    font-size: 18px;
+    color: #404040;
+}
+
+.skills-list {
+    margin: 0;
+    padding: 0;
+}
+
+.skills-item {
+    list-style: none;
+    font-size: 18px;
+    text-align: left;
+}
+
+.checkbox {
+    padding-right: 5px;
+    width: 20px;
+}
+
+.snippet {
+    font-size: 18px;
+}
+
+.project-link {
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #404040;
+    transition: 0.7s;
+}
+
+.project-link:hover {
+    color: #6a8a84;
+}
+
+.languages, .courses {
+    border-bottom: none;
+}
+
+.lang-list {
+    margin: 0;
+    padding: 0;
+}
+
+.lang-item {
+    list-style: none;
+    font-size: 18px;
+    color: #404040;
+}
