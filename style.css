@@ -147,6 +147,7 @@ body {
 .common-list {
     margin: 0;
     padding: 0;
+    line-height: 25px;
 }
 
 .common-item {
@@ -181,3 +182,40 @@ body {
     border-bottom: none;
 }
 
+.footer {
+    margin-bottom: auto;
+    background-color: #b7c7c4;
+}
+
+.footer-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    line-height: 40px;
+    margin: 0 auto;
+}
+
+.copyright {
+    color: #fff;
+    transition: 0.7s;
+}
+
+.copyright:hover {
+    color: #404040;
+}
+
+.github {
+    width: 54px;
+    background-image: url("./assets/svg/github.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.rss {
+    width: 120px;
+    background-image: url("./assets/svg/rs_school_js.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
