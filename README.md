@@ -1,1 +1,1 @@
-# rsschool-cv
+https://gobacktosleep.github.io/rsschool-cv/
