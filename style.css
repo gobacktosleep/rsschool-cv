@@ -44,22 +44,24 @@ body {
 
 .main {
     margin-bottom: auto;
+    padding: 30px;
 }
 
 .box {
-    max-width: 1080px;
+    max-width: 1280px;
     margin: 0 auto;
 }
 
 .main-box {
     display: flex;
+    justify-content: space-between;
     flex-wrap: wrap;
-    max-width: 1080px;
+    max-width: 1280px;
     margin: 0 auto;
 }
 
 .section {
-    width: 50%;
+    width: calc(50% - 20px);
     padding-bottom: 20px;
     border-bottom: 2px solid #999;
 }
@@ -70,7 +72,7 @@ body {
     align-content: center;
     padding-top: 20px;
     margin: 0 auto;
-    width: 1080px;
+    width: 100%;
     border-bottom: 10px solid #9999;
 }
 
@@ -101,6 +103,7 @@ body {
     font-weight: normal;
     color: #999;
 }
+
 .contacts {
     text-align: left;
     text-decoration: none;
@@ -109,12 +112,13 @@ body {
 
 .contact-icons {
     padding-right: 5px;
-    width: 24px;
+    width: 32px;
 }
 
 .contact-list {
     margin: 0;
     padding: 0;
+    line-height: 30px;
     font-size: 18px;
     text-align: left;
 }
@@ -134,20 +138,22 @@ body {
 }
 
 .page-text {
+    margin: 0 auto;
     text-align: justify;
     font-size: 18px;
     color: #404040;
 }
 
-.skills-list {
+.common-list {
     margin: 0;
     padding: 0;
 }
 
-.skills-item {
+.common-item {
     list-style: none;
     font-size: 18px;
     text-align: left;
+    color: #404040;
 }
 
 .checkbox {
@@ -175,13 +181,3 @@ body {
     border-bottom: none;
 }
 
-.lang-list {
-    margin: 0;
-    padding: 0;
-}
-
-.lang-item {
-    list-style: none;
-    font-size: 18px;
-    color: #404040;
-}
