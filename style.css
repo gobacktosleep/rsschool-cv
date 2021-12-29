@@ -1,3 +1,221 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
 body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.header {
+    background-color: #b7c7c4;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    padding-left: 0;
+}
+
+.nav-link {
+    padding: 0 10px;
+    line-height: 40px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 16px;
+    color: #fff;
+    transition: 0.7s;
+}
+
+.nav-link:hover {
+    color: #404040;
+}
+
+.main {
+    margin-bottom: auto;
+    padding: 30px;
+}
+
+.box {
+    max-width: 1280px;
     margin: 0 auto;
+}
+
+.main-box {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.section {
+    width: calc(50% - 20px);
+    padding-bottom: 20px;
+    border-bottom: 2px solid #999;
+}
+
+.name-with-photo {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding-top: 20px;
+    margin: 0 auto;
+    width: 100%;
+    border-bottom: 10px solid #9999;
+}
+
+.userpic {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.introduce {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.name {
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: normal;
+    border-bottom: 1px solid #b7c7c4;
+    color: #404040;
+}
+
+.description {
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: normal;
+    color: #999;
+}
+
+.contacts {
+    text-align: left;
+    text-decoration: none;
+    color: #404040;
+}
+
+.contact-icons {
+    padding-right: 5px;
+    width: 32px;
+}
+
+.contact-list {
+    margin: 0;
+    padding: 0;
+    line-height: 30px;
+    font-size: 18px;
+    text-align: left;
+}
+
+.contact-item {
+    list-style: none;
+}
+
+.contact-link {
+    text-decoration: none;
+    color: #404040;
+    transition: 0.7s;
+}
+
+.contact-link:hover {
+    color: #6a8a84;
+}
+
+.page-text {
+    margin: 0 auto;
+    text-align: justify;
+    font-size: 18px;
+    color: #404040;
+}
+
+.common-list {
+    margin: 0;
+    padding: 0;
+    line-height: 25px;
+}
+
+.common-item {
+    list-style: none;
+    font-size: 18px;
+    text-align: left;
+    color: #404040;
+}
+
+.checkbox {
+    padding-right: 5px;
+    width: 20px;
+}
+
+.snippet {
+    font-size: 18px;
+}
+
+.project-link {
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #404040;
+    transition: 0.7s;
+}
+
+.project-link:hover {
+    color: #6a8a84;
+}
+
+.languages, .courses {
+    border-bottom: none;
+}
+
+.footer {
+    margin-bottom: auto;
+    background-color: #b7c7c4;
+}
+
+.footer-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    line-height: 40px;
+    margin: 0 auto;
+}
+
+.copyright {
+    color: #fff;
+    transition: 0.7s;
+}
+
+.copyright:hover {
+    color: #404040;
+}
+
+.github {
+    width: 54px;
+    background-image: url("./assets/svg/github.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.rss {
+    width: 120px;
+    background-image: url("./assets/svg/rs_school_js.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
 }
